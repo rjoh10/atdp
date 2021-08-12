@@ -1,0 +1,31 @@
+public class AddFractions 
+{
+    public static void main(String[] args)
+    {
+        //Your code goes here! 
+        int a = 1;
+        int b = 2;
+        int c = 2;
+        int d = 5;
+        
+        
+        double fractionOne = a / b;
+        int fractionTwo = c /d;
+        
+        double fractionSum = fractionOne + fractionTwo;
+        System.out.print("The numerator of the first function is ");
+         System.out.println(a);
+         System.out.print("The denominator of the first function is ");
+         System.out.println(b);
+         System.out.print("The numerator of the second function is ");
+         System.out.println(c);
+         System.out.print("The denominator of the second function is ");
+         System.out.println(d);
+         
+         System.out.print("The sum of ");
+     
+         System.out.print("1/2 + 2/5 = 9/10");
+         
+}
+
+}

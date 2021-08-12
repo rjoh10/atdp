@@ -1,0 +1,22 @@
+public class FallingBodies
+{
+    public static void main(String[] args)
+    {
+        // Start here!
+        
+        int t=10;
+        int tSquared=t*t;
+        double g=9.8;
+        
+      System.out.print("The height of the cliff is ");
+        System.out.print( 0.5*g*tSquared);
+        System.out.println(" meters.");
+        
+       System.out.print("The velocity of the ball when it hits the ground is ");
+        System.out.print(g*t);
+         System.out.print(" meters per second.");
+        
+        
+        
+    }
+}

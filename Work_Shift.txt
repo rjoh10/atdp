@@ -1,0 +1,25 @@
+public class WorkShift
+{
+    public static void main(String[] args)
+    {
+        // Start here!
+        int hours=20; 
+        int minutes=42; 
+        int seconds=16;
+        
+        int hoursConversion=3600;
+        int minutesConversion=60;
+        
+        
+     hours*=hoursConversion;
+        
+        int minutesToSeconds=minutes*minutesConversion;
+        
+        int totalSeconds=hours+minutesToSeconds+seconds;
+        
+        System.out.println(totalSeconds);
+        
+        
+        
+    }
+}
